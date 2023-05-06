@@ -29,4 +29,5 @@ message = socket.recv_json()
 print(f"Received reply [ {message} ]")
 
 This shows how it will receive the data back from my microservice. To use the data that was sent back to the project, use this statement: decode_json = json.loads(message). Then it can be accessed as one would a normal python dictionary. 
-![Untitled](https://user-images.githubusercontent.com/107904009/236641559-add86771-a610-4665-97bc-769a2fd2f7bf.png)
+![Screenshot 2023-05-06 134857](https://user-images.githubusercontent.com/107904009/236641614-6be1d02f-1b78-4df0-b17e-15f17ac026da.png)
+
